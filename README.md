@@ -15,3 +15,6 @@ The following resources must be downloaded once before first use:
 #nltk.download('averaged_perceptron_tagger')
 django (2.2.1)
 
+To run locally, simply download all files in this repo, make sure dependencies are installed (creating a new environment is highly recommended), and run the following command:
+
+>> python manage.py runserver 0.0.0.0:8000
