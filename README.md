@@ -1,7 +1,7 @@
 # Term-Match-API-SVO-1.0.0
 A simple term matching API for SVO version 1.0.0
 
-This API is implemented using a very simple Django wrapper. This API has been tested on Anaconda and CentOS running Python 3.
+This API is implemented using a very simple Django wrapper. This API has been tested on MacOS Mojave + Anaconda and CentOS 7 running Python 3.
 
 Requires the following packages and their dependencies (versions tested are in parentheses although likely this API may work with older versions of these packages):
 
