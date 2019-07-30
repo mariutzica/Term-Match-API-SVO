@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Term Match API</title>
+  </head>
+  <body>
+    <h1>Term Match API Usage</h1>
+    <p>http://34.73.227.230:8000/match_phrase/words_to_match_separated_by_underscores</p>
+    <p>Examples ...</p>
+    <p><a href="http://34.73.227.230:8000/match_phrase/temperature/">http://34.73.227.230:8000/match_phrase/temperature/</a></p>
+    <p><a href="http://34.73.227.230:8000/match_phrase/rainfall/">http://34.73.227.230:8000/match_phrase/rainfall/</a></p>
+    <p><a href="http://34.73.227.230:8000/match_phrase/drought/">http://34.73.227.230:8000/match_phrase/drought/</a></p>
+    <p><a href="http://34.73.227.230:8000/match_phrase/available_energy">http://34.73.227.230:8000/match_phrase/available_energy/</a></p>
+    <h2>Result format</h2>
+    <p>json : up to 5 results (current internal limit)</p>
+    <code>{ "results": [ {"IRI":"result1_IRI", "label":"result1_label", "matchrank": "result1_rank"},
+                   {"IRI":"result2_IRI", "label":"result2_label", "matchrank": "result2_rank"},
+                   ...
+                   {"IRI":"result5_IRI", "label":"result5_label", "matchrank": "result5_rank"} ] }
+    </code>
+    <p></p>
+  </body>
+</html>
